@@ -33,5 +33,47 @@ namespace RealEstate.Controllers
             var apartment = await _apartmentRepo.GetById(id);
             return Ok(apartment);
         }
+
+
+        [HttpPost]
+        public async Task<IActionResult> Create([FromBody] Apartment apartment)
+        {
+            if (apartment == null)
+                return BadRequest();
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest("Invalid model object");
+            }
+            await _apartmentRepo.Create(apartment);
+            return Created("", apartment);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(int id, [FromBody] Apartment apartment)
+        {
+
+
+            var dbApartment = await _apartmentRepo.GetById(id);
+            if (dbApartment == null)
+                return NotFound();
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest("Invalid model object");
+            }
+            await _apartmentRepo.Update(apartment);
+            return NoContent();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+
+
+            await _apartmentRepo.Delete(id);
+
+            return NoContent();
+        }
     }
 }

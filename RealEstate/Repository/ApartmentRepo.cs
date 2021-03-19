@@ -17,9 +17,31 @@ namespace Repository
         {
         }
 
+        public async Task Create(Apartment entity)
+        {
+            _context.Add(entity);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task Update(Apartment entity)
+        {
+            _context.Update(entity);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task Delete(int id)
+        {
+            var apartment = await _context.Apartments.FindAsync(id);
+            _context.Apartments.Remove(apartment);
+            await _context.SaveChangesAsync();
+        }
+
         public async Task<IEnumerable<Apartment>> GetAll()
         {
-            return await _context.Apartments.ToListAsync();
+
+            return await _context.Apartments
+               .Include(a => a.Region)
+               .ToListAsync();
         }
 
         public async Task<Apartment> GetById(int id)
@@ -27,5 +49,7 @@ namespace Repository
             return await _context.Apartments
                 .FirstOrDefaultAsync(m => m.Id == id);
         }
+
+       
     }
 }

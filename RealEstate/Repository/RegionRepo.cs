@@ -15,6 +15,25 @@ namespace Repository
         {
         }
 
+        public async Task Create(Region entity)
+        {
+            _context.Add(entity);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task Update(Region entity)
+        {
+            _context.Update(entity);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task Delete(int id)
+        {
+            var region = await _context.Regions.FindAsync(id);
+            _context.Regions.Remove(region);
+            await _context.SaveChangesAsync();
+        }
+
         public async Task<IEnumerable<Region>> GetAll()
         {
             return await _context.Regions.ToListAsync();

@@ -10,7 +10,9 @@ namespace Entities
         {
             //Database.EnsureCreated();
         }
-
+        //to keep this method/class clean and readable
+        //there were created serveral configuration classes
+        //with code to insert default data to the db
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new RegionConfiguration());

@@ -13,6 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using RealEstate.Extentions;
 using Repository;
 
 namespace RealEstate
@@ -26,19 +27,18 @@ namespace RealEstate
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
+        //to keep this method clean and readable
+        //there was created ServiceExtention class with configuration methods
         public void ConfigureServices(IServiceCollection services)
         {
-            //DI
-            services.AddScoped<IRepository<Apartment>, ApartmentRepo>();
-            services.AddScoped<IRepository<House>, HouseRepo>();
-            services.AddScoped<IRepository<Region>, RegionRepo>();
 
-            services.AddDbContext<RepoContext>(
-                options => options.UseSqlServer(
-                    Configuration.GetConnectionString("RealEstateWADcw")
-                    )
-                );
+            services.ConfigureCors();
+     
+            services.ConfigureDI();
+
+            services.ConfigureSqlContext(Configuration);
+
+            services.AddNewTonSoftJson();
 
             services.AddControllers();
         }
@@ -52,6 +52,8 @@ namespace RealEstate
             }
 
             app.UseHttpsRedirection();
+
+            app.UseCors("CorsPolicy");
 
             app.UseRouting();
 
