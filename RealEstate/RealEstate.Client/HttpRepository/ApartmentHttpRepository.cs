@@ -25,6 +25,8 @@ namespace RealEstate.Client.HttpRepository
             var queryStringParam = new Dictionary<string, string>
             {
                 ["pageNumber"] = entityParameters.PageNumber.ToString(),
+                ["searchTerm"] = entityParameters.SearchTerm ?? "",
+                ["orderBy"] = entityParameters.OrderBy
             };
 
             var response = await _client.GetAsync(QueryHelpers.AddQueryString("https://localhost:5021/api/apartments", queryStringParam));

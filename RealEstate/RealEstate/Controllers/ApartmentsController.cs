@@ -11,7 +11,7 @@ using Repository;
 
 namespace RealEstate.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/apartments")]
     [ApiController]
     public class ApartmentsController : ControllerBase
     {
@@ -25,7 +25,7 @@ namespace RealEstate.Controllers
 
         //Using FromQuery coz we use query parameters to define which page
         //and how many entities on a single we are requesting
-        public async Task<IActionResult> Get([FromQuery] EntityParameters entityParameters)
+        public async Task<IActionResult> GetAll([FromQuery] EntityParameters entityParameters)
         {
             var apartments = await _apartmentRepo.GetAll(entityParameters);
             Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(apartments.MetaData));

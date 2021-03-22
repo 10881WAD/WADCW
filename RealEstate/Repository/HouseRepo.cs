@@ -2,6 +2,7 @@
 using Entities.Features;
 using Entities.Models;
 using Microsoft.EntityFrameworkCore;
+using Repository.Extentions;
 using Repository.Pagination;
 using System;
 using System.Collections.Generic;
@@ -40,8 +41,10 @@ namespace Repository
         public async Task<PagedList<House>> GetAll(EntityParameters entityParameters)
         {
             var houses = await _context.Houses
-             .Include(a => a.Region)
-             .ToListAsync();
+               .Include(h => h.Region)
+            .Search(entityParameters.SearchTerm)
+            .Sort(entityParameters.OrderBy)
+            .ToListAsync();
 
 
             return PagedList<House>

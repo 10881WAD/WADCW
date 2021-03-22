@@ -35,5 +35,20 @@ namespace RealEstate.Client.Pages
             HouseList = pagingResponse.Items;
             MetaData = pagingResponse.MetaData;
         }
+
+        private async Task SearchChanged(string searchTerm)
+        {
+            Console.WriteLine(searchTerm);
+            _houseParameters.PageNumber = 1;
+            _houseParameters.SearchTerm = searchTerm;
+            await GetAll();
+        }
+
+        private async Task SortChanged(string orderBy)
+        {
+            Console.WriteLine(orderBy);
+            _houseParameters.OrderBy = orderBy;
+            await GetAll();
+        }
     }
 }

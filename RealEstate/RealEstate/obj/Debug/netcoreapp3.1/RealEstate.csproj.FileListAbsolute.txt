@@ -66,3 +66,4 @@ C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate\bin\Debug\netcoreapp
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate\obj\Debug\netcoreapp3.1\RealEstate.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate\obj\Debug\netcoreapp3.1\RealEstate.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate\bin\Debug\netcoreapp3.1\System.Linq.Dynamic.Core.dll

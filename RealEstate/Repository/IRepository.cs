@@ -7,11 +7,7 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    /// <summary>
-    /// only 2 methods have been implemented so far
-    /// GetAll method will be changed when Pagination will be applied
-    /// </summary>
-    /// <typeparam name="T"></typeparam>
+
     public interface IRepository<T>
     {
         

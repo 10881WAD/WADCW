@@ -11,7 +11,7 @@ using Repository;
 
 namespace RealEstate.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/houses")]
     [ApiController]
     public class HousesController : ControllerBase
     {
@@ -22,7 +22,7 @@ namespace RealEstate.Controllers
             _houseRepo = houseRepo;
         }
         [HttpGet]
-        public async Task<IActionResult> Get([FromQuery] EntityParameters entityParameters)
+        public async Task<IActionResult> GetAll([FromQuery] EntityParameters entityParameters)
         {
             var houses = await _houseRepo.GetAll(entityParameters);
             Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(houses.MetaData));
