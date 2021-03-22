@@ -20,7 +20,8 @@ namespace RealEstate.Extentions
                 policy.AddPolicy("CorsPolicy", opt => opt
                     .AllowAnyOrigin()
                     .AllowAnyHeader()
-                    .AllowAnyMethod());
+                    .AllowAnyMethod()
+                    .WithExposedHeaders("X-Pagination"));
             });
         }
 

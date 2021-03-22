@@ -1,4 +1,7 @@
-﻿using Entities.Models;
+﻿using Entities.Features;
+using Entities.Models;
+using Microsoft.AspNetCore.WebUtilities;
+using RealEstate.Client.Features;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,12 +20,28 @@ namespace RealEstate.Client.HttpRepository
 
 
         //passing an entire URI to the server endpoint
-        public async Task<List<House>> GetAll()
+        public async Task<PagingResponse<House>> GetAll(EntityParameters entityParameters)
         {
-            var response = await _client.GetAsync("https://localhost:5021/api/houses");
+            var queryStringParam = new Dictionary<string, string>
+            {
+                ["pageNumber"] = entityParameters.PageNumber.ToString(),
+     
+            };
+
+            var response = await _client.GetAsync(QueryHelpers.AddQueryString("https://localhost:5021/api/houses", queryStringParam));
             var content = await response.Content.ReadAsStringAsync();
-            var houses = JsonSerializer.Deserialize<List<House>>(content, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
-            return houses;
+            if (!response.IsSuccessStatusCode)
+            {
+                throw new ApplicationException(content);
+            }
+
+            var pagingResponse = new PagingResponse<House>
+            {
+                Items = JsonSerializer.Deserialize<List<House>>(content, new JsonSerializerOptions { PropertyNameCaseInsensitive = true }),
+                MetaData = JsonSerializer.Deserialize<MetaData>(response.Headers.GetValues("X-Pagination").First(), new JsonSerializerOptions { PropertyNameCaseInsensitive = true })
+            };
+
+            return pagingResponse;
         }
     }
 }

@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Entities.Features;
 using Entities.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using Repository;
 
 namespace RealEstate.Controllers
@@ -20,9 +22,10 @@ namespace RealEstate.Controllers
             _houseRepo = houseRepo;
         }
         [HttpGet]
-        public async Task<IActionResult> Get()
+        public async Task<IActionResult> Get([FromQuery] EntityParameters entityParameters)
         {
-            var houses = await _houseRepo.GetAll();
+            var houses = await _houseRepo.GetAll(entityParameters);
+            Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(houses.MetaData));
             return Ok(houses);
         }
 

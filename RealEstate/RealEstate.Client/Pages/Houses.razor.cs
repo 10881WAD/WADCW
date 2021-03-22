@@ -1,4 +1,5 @@
-﻿using Entities.Models;
+﻿using Entities.Features;
+using Entities.Models;
 using Microsoft.AspNetCore.Components;
 using RealEstate.Client.HttpRepository;
 using System;
@@ -11,14 +12,28 @@ namespace RealEstate.Client.Pages
     public partial class Houses
     {
         public List<House> HouseList { get; set; } = new List<House>();
+        public MetaData MetaData { get; set; } = new MetaData();
+        private EntityParameters _houseParameters = new EntityParameters();
 
         [Inject]//we are injectiong the interface to call the GetAll method
         public IHttpRepository<House> HouseRepo { get; set; }
 
         protected async override Task OnInitializedAsync()
         {
-            HouseList = await HouseRepo.GetAll();
+           await GetAll();
 
+        }
+
+        private async Task SelectedPage(int page)
+        {
+            _houseParameters.PageNumber = page;
+            await GetAll();
+        }
+        private async Task GetAll()
+        {
+            var pagingResponse = await HouseRepo.GetAll(_houseParameters);
+            HouseList = pagingResponse.Items;
+            MetaData = pagingResponse.MetaData;
         }
     }
 }

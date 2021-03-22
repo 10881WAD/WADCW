@@ -1,5 +1,7 @@
 ﻿@page "/apartments"
 @using RealEstate.Client.Components.ApartmentTable
+@using RealEstate.Client.Components
+
 <div class="row">
     <div class="col-md-2">
         <a href="/createProduct">Create Product</a>
@@ -8,5 +10,10 @@
 <div class="row">
     <div class="col">
         <ApartmentTable Apartments="ApartmentList" />
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <Page MetaData="MetaData" Spread="2" SelectedPage="SelectedPage" />
     </div>
 </div>

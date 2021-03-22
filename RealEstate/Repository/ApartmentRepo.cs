@@ -1,6 +1,8 @@
 ﻿using Entities;
+using Entities.Features;
 using Entities.Models;
 using Microsoft.EntityFrameworkCore;
+using Repository.Pagination;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -36,13 +38,6 @@ namespace Repository
             await _context.SaveChangesAsync();
         }
 
-        public async Task<IEnumerable<Apartment>> GetAll()
-        {
-
-            return await _context.Apartments
-               .Include(a => a.Region)
-               .ToListAsync();
-        }
 
         public async Task<Apartment> GetById(int id)
         {
@@ -50,6 +45,16 @@ namespace Repository
                 .FirstOrDefaultAsync(m => m.Id == id);
         }
 
-       
+        public async Task<PagedList<Apartment>> GetAll(EntityParameters entityParameters)
+        {
+            var apartments = await _context.Apartments
+             .Include(a => a.Region)
+             .ToListAsync();
+
+
+            return PagedList<Apartment>
+                .ToPagedList(apartments, entityParameters.PageNumber, entityParameters.PageSize);
+        }
+
     }
 }

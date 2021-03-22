@@ -1,5 +1,7 @@
 ﻿@page "/regions"
 @using RealEstate.Client.Components.RegionTable
+@using RealEstate.Client.Components
+
 <div class="row">
     <div class="col-md-2">
         <a href="/createProduct">Create Product</a>
@@ -7,6 +9,11 @@
 </div>
 <div class="row">
     <div class="col">
-        <RegionTable Regions="RegionList"/>
+        <RegionTable Regions="RegionList" />
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <Page MetaData="MetaData" Spread="2" SelectedPage="SelectedPage" />
     </div>
 </div>

@@ -69,7 +69,7 @@
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-l2VWda6YQZ\/1aAU+m8xumI5iaOXergb9X\/x9Hma+uPY=",
+      "hash": "sha256-VslBoav4MjlyS6GH1L5Y0Pw2FsvsJuKMgpUKWI+GG4g=",
       "url": "_framework\/_bin\/RealEstate.Client.dll"
     },
     {
@@ -189,6 +189,18 @@
       "url": "_framework\/_bin\/System.Text.Encodings.Web.dll"
     },
     {
+      "hash": "sha256-D5akJeBd7NNITuzAXxlX7zl2jfsc4uTKyeEKwwNhqoo=",
+      "url": "_framework\/_bin\/Microsoft.AspNetCore.WebUtilities.dll"
+    },
+    {
+      "hash": "sha256-BYmwsHPEk7HYQVYlD7qBbstiUmv48wt4O+q7Y7gx7Eg=",
+      "url": "_framework\/_bin\/Microsoft.Extensions.Primitives.dll"
+    },
+    {
+      "hash": "sha256-P66ftDrXwc6ayND8uYzIk0CPQy1GjNZAPHx9RMhi3V4=",
+      "url": "_framework\/_bin\/Microsoft.Net.Http.Headers.dll"
+    },
+    {
       "hash": "sha256-99dseBOagY3mzu5Y8Eqm8gRI+o8QbbCp7R2Ew9bQ+5E=",
       "url": "_framework\/_bin\/System.Net.Http.Json.dll"
     },
@@ -221,7 +233,7 @@
       "url": "_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
-      "hash": "sha256-ZlBDvxNnuecz1d9+dynb+kUhrT2qSdy1IRaz\/U3jukY=",
+      "hash": "sha256-dGHkr2KlDK\/6zWWl0OHqBTrdvxYu3Aw+9dxrQfCjUEM=",
       "url": "_framework\/_bin\/Entities.dll"
     },
     {
@@ -297,10 +309,6 @@
       "url": "_framework\/_bin\/Microsoft.Extensions.Caching.Abstractions.dll"
     },
     {
-      "hash": "sha256-BYmwsHPEk7HYQVYlD7qBbstiUmv48wt4O+q7Y7gx7Eg=",
-      "url": "_framework\/_bin\/Microsoft.Extensions.Primitives.dll"
-    },
-    {
       "hash": "sha256-GHIzH\/zWpH7C5DSthZ57ADmFfuyRc2XMzJPE012UEuU=",
       "url": "_framework\/_bin\/Microsoft.Extensions.Configuration.Abstractions.dll"
     },
@@ -361,11 +369,11 @@
       "url": "_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-xU+jLCPDTXYXkeKLl0wNujRSYrO6uzn0hDhhVNdQ0sU=",
+      "hash": "sha256-CwDBfCY0Fc65OviYAQz0doCGa7MYBo3Nb2+V6\/otKCM=",
       "url": "_framework\/_bin\/RealEstate.Client.pdb"
     },
     {
-      "hash": "sha256-45\/lxXpdiH1KKUSMDnPOqp8eXGq2k4wuq4RTc2ftZxg=",
+      "hash": "sha256-xpNqt6eBtvADrpqwLMKkl84F\/OxyXXr8QetXJPGtCz4=",
       "url": "_framework\/_bin\/Entities.pdb"
     },
     {
@@ -389,9 +397,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-nvMMem+xbTEZ0nH1L1OT65a1rey93K1bzh1K2iRWxoU=",
+      "hash": "sha256-cFvhnhDib2rwMyhLZNHlwyHg9khIYlM\/6bJd6dLJXMw=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "v8p4ZVRU"
+  "version": "SPkDIeSa"
 };

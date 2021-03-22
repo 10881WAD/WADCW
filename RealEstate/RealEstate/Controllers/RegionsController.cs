@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Entities.Features;
 using Entities.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using Repository;
 
 namespace RealEstate.Controllers
@@ -20,9 +22,10 @@ namespace RealEstate.Controllers
             _regionRepo = regionRepo;
         }
 
-        public async Task<IActionResult> Get()
+        public async Task<IActionResult> Get([FromQuery] EntityParameters entityParameters)
         {
-            var regions = await _regionRepo.GetAll();
+            var regions = await _regionRepo.GetAll(entityParameters);
+            Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(regions.MetaData));
             return Ok(regions);
         }
 

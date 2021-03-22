@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Entities.Features;
 using Entities.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using Repository;
 
 namespace RealEstate.Controllers
@@ -21,14 +23,17 @@ namespace RealEstate.Controllers
             _apartmentRepo = apartmentRepo;
         }
 
-        public async Task<IActionResult> Get()
+        //Using FromQuery coz we use query parameters to define which page
+        //and how many entities on a single we are requesting
+        public async Task<IActionResult> Get([FromQuery] EntityParameters entityParameters)
         {
-            var apartments = await _apartmentRepo.GetAll();
+            var apartments = await _apartmentRepo.GetAll(entityParameters);
+            Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(apartments.MetaData));
             return Ok(apartments);
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetByIdAsync(int id)
+        public async Task<IActionResult> GetById(int id)
         {
             var apartment = await _apartmentRepo.GetById(id);
             return Ok(apartment);
