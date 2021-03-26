@@ -76,6 +76,13 @@ using RealEstate.Client.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\_Imports.razor"
+using Entities.Models;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/fetchdata")]
     public partial class FetchData : Microsoft.AspNetCore.Components.ComponentBase
     {

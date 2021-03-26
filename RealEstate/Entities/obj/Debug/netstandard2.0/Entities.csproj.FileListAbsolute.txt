@@ -5,5 +5,4 @@ C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\Entities\obj\Debug\netstandard2
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\Entities\bin\Debug\netstandard2.0\Entities.pdb
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\Entities\obj\Debug\netstandard2.0\Entities.dll
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\Entities\obj\Debug\netstandard2.0\Entities.pdb
-C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache

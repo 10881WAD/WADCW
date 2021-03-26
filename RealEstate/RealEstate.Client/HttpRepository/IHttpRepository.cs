@@ -10,5 +10,6 @@ namespace RealEstate.Client.HttpRepository
     public interface IHttpRepository<T> where T : class
     {
         Task<PagingResponse<T>> GetAll(EntityParameters entityParameters);
+        Task CreateAsync(T entity);
     }
 }

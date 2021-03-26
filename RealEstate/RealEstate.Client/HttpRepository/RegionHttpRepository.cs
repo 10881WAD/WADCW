@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
@@ -17,7 +18,17 @@ namespace RealEstate.Client.HttpRepository
            : base(client)
     {
     }
-
+        public async Task CreateAsync(Region region)
+        {
+            var content = JsonSerializer.Serialize(region);
+            var bodyContent = new StringContent(content, Encoding.UTF8, "application/json");
+            var postResult = await _client.PostAsync("https://localhost:5021/api/regions", bodyContent);
+            var postContent = await postResult.Content.ReadAsStringAsync();
+            if (!postResult.IsSuccessStatusCode)
+            {
+                throw new ApplicationException(postContent);
+            }
+        }
 
         //passing an entire URI to the server endpoint
         public async Task<PagingResponse<Region>> GetAll(EntityParameters entityParameters)
