@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.WebUtilities;
 using RealEstate.Client.Features;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
@@ -52,6 +53,26 @@ namespace RealEstate.Client.HttpRepository
             };
 
             return pagingResponse;
+        }
+
+        /// <summary>
+        /// In case if such property will be added)
+        /// </summary>
+        /// <param name="wont be used probably"></param>
+        /// <returns>nothing</returns>
+        public async Task<string> UploadImage(MultipartFormDataContent content)
+        {
+            var postResult = await _client.PostAsync("https://localhost:5021/api/upload", content);
+            var postContent = await postResult.Content.ReadAsStringAsync();
+            if (!postResult.IsSuccessStatusCode)
+            {
+                throw new ApplicationException(postContent);
+            }
+            else
+            {
+                var imgUrl = Path.Combine("https://localhost:5021/", postContent);
+                return imgUrl;
+            }
         }
     }
 }

@@ -18,7 +18,7 @@
     <div class="form-group row">
         <label for="imageurl" class="col-md-2 col-form-label">Image:</label>
         <div class="col-md-10">
-            <InputText id="imageurl" class="form-control" @bind-Value="_house.ImageURL" />
+            <HouseImageUpload OnChange="AssignImageUrl" />
         </div>
     </div>
 

@@ -24,5 +24,6 @@ namespace RealEstate.Client.Pages.Create
             _notification.Show();
 
         }
+        private void AssignImageUrl(string imgUrl) => _house.ImageURL = imgUrl;
     }
 }

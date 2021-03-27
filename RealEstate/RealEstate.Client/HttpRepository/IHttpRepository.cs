@@ -3,6 +3,7 @@ using RealEstate.Client.Features;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace RealEstate.Client.HttpRepository
@@ -11,5 +12,6 @@ namespace RealEstate.Client.HttpRepository
     {
         Task<PagingResponse<T>> GetAll(EntityParameters entityParameters);
         Task CreateAsync(T entity);
+        Task<string> UploadImage(MultipartFormDataContent content);
     }
 }

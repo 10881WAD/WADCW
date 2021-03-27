@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KIV8VLTLRoGOhwuan2fXfTIrpj0uMRphjD12h22mcGw04QxSP/9FFwyzZKQh1SKsML3AWKl0E6MXmPCjGI/Tyw==",
+  "dgSpecHash": "1LHE783NCEDMYGGCaWv43TcmRIpq8onXTYmZxvDy0BWlDqQQmHmt7no52jBmpiicfcp9MmoEL5Y8vlrkJrXNgQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\Documents\\GitHub\\WADCW\\RealEstate\\RealEstate.Client\\RealEstate.Client.csproj",
   "expectedPackageFiles": [
@@ -137,7 +137,8 @@
     "C:\\Users\\Admin\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\Admin\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\tewr.blazor.filereader\\3.0.0.20340\\tewr.blazor.filereader.3.0.0.20340.nupkg.sha512"
   ],
   "logs": []
 }

@@ -23,6 +23,7 @@ namespace RealEstate.Client.Pages.Create
             await ApartmentRepo.CreateAsync(_apartment);
             _notification.Show();
         }
-       
+        private void AssignImageUrl(string imgUrl) => _apartment.ImageURL = imgUrl;
+
     }
 }

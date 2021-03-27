@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using RealEstate.Client.HttpRepository;
 using Entities.Models;
+using Tewr.Blazor.FileReader;
 
 namespace RealEstate.Client
 {
@@ -23,6 +24,7 @@ namespace RealEstate.Client
             builder.Services.AddScoped<IHttpRepository<Apartment>, ApartmentHttpRepository>();
             builder.Services.AddScoped<IHttpRepository<House>, HouseHttpRepository>();
             builder.Services.AddScoped<IHttpRepository<Region>, RegionHttpRepository>();
+            builder.Services.AddFileReaderService(o => o.UseWasmSharedBuffer = true);
 
             await builder.Build().RunAsync();
         }
