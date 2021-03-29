@@ -26,9 +26,18 @@ namespace Repository
             await _context.SaveChangesAsync();
         }
 
-        public async Task Update(Apartment entity)
+        public async Task Update(Apartment entity, Apartment dbEntity)
         {
-            _context.Update(entity);
+            dbEntity.Description = entity.Description;
+            dbEntity.FloorNo     = entity.FloorNo;
+            dbEntity.ImageURL    = entity.ImageURL;
+            dbEntity.NumOfRooms  = entity.NumOfRooms;
+            dbEntity.Price       = entity.Price;
+            dbEntity.RegionId    = entity.RegionId;
+            dbEntity.Square      = entity.Square;
+            dbEntity.Status      = entity.Status;
+
+
             await _context.SaveChangesAsync();
         }
 

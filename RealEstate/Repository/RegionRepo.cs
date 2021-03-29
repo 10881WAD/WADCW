@@ -23,9 +23,9 @@ namespace Repository
             await _context.SaveChangesAsync();
         }
 
-        public async Task Update(Region entity)
+        public async Task Update(Region entity, Region dbEntity)
         {
-            _context.Update(entity);
+            dbEntity.Name = entity.Name;
             await _context.SaveChangesAsync();
         }
 

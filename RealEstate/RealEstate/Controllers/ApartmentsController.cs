@@ -67,7 +67,7 @@ namespace RealEstate.Controllers
             {
                 return BadRequest("Invalid model object");
             }
-            await _apartmentRepo.Update(apartment);
+            await _apartmentRepo.Update(apartment, dbApartment);
             return NoContent();
         }
 

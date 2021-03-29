@@ -32,6 +32,18 @@ namespace RealEstate.Client.HttpRepository
             }
         }
 
+        public async Task DeleteAsync(int id)
+        {
+            var url = Path.Combine("https://localhost:5021/api/houses", id.ToString());
+
+            var deleteResult = await _client.DeleteAsync(url);
+            var deleteContent = await deleteResult.Content.ReadAsStringAsync();
+            if (!deleteResult.IsSuccessStatusCode)
+            {
+                throw new ApplicationException(deleteContent);
+            }
+        }
+
         //passing an entire URI to the server endpoint
         public async Task<PagingResponse<House>> GetAll(EntityParameters entityParameters)
         {
@@ -57,6 +69,36 @@ namespace RealEstate.Client.HttpRepository
             };
 
             return pagingResponse;
+        }
+
+        public async Task<House> GetById(string id)
+        {
+            var url = Path.Combine("https://localhost:5021/api/houses/", id);
+
+            var response = await _client.GetAsync(url);
+            var content = await response.Content.ReadAsStringAsync();
+            if (!response.IsSuccessStatusCode)
+            {
+                throw new ApplicationException(content);
+            }
+
+            var house = JsonSerializer.Deserialize<House>(content, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+            return house;
+        }
+
+        public async Task UpdateAsync(House entity)
+        {
+            var content = JsonSerializer.Serialize(entity);
+            var bodyContent = new StringContent(content, Encoding.UTF8, "application/json");
+            var url = Path.Combine("https://localhost:5021/api/houses/", entity.Id.ToString());
+
+            var putResult = await _client.PutAsync(url, bodyContent);
+            var putContent = await putResult.Content.ReadAsStringAsync();
+
+            if (!putResult.IsSuccessStatusCode)
+            {
+                throw new ApplicationException(putContent);
+            }
         }
 
         public async Task<string> UploadImage(MultipartFormDataContent content)

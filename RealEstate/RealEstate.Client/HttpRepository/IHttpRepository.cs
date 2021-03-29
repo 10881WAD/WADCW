@@ -11,7 +11,11 @@ namespace RealEstate.Client.HttpRepository
     public interface IHttpRepository<T> where T : class
     {
         Task<PagingResponse<T>> GetAll(EntityParameters entityParameters);
+        Task<T> GetById(string id);
         Task CreateAsync(T entity);
         Task<string> UploadImage(MultipartFormDataContent content);
+        Task UpdateAsync(T entity);
+        Task DeleteAsync(int id);
+
     }
 }

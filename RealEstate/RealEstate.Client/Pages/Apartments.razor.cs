@@ -50,5 +50,12 @@ namespace RealEstate.Client.Pages
             _apartmentParameters.OrderBy = orderBy;
             await GetAll();
         }
+
+        private async Task DeleteApartment(int id)
+        {
+            await ApartmentRepo.DeleteAsync(id);
+            _apartmentParameters.PageNumber = 1;
+            await GetAll();
+        }
     }
 }

@@ -35,5 +35,12 @@ namespace RealEstate.Client.Pages
             RegionList = pagingResponse.Items;
             MetaData = pagingResponse.MetaData;
         }
+
+        private async Task DeleteRegion(int id)
+        {
+            await RegionRepo.DeleteAsync(id);
+            _regionParameters.PageNumber = 1;
+            await GetAll();
+        }
     }
 }
