@@ -8,6 +8,9 @@ namespace Entities.Models
 
         public int Id { get; set; }
 
+
+        //As my Lecturer says for the sake of simplicity
+        //I've used double instead of decimal for price
         [Required(ErrorMessage = "Price is required")]
         public double Price { get; set; }
 

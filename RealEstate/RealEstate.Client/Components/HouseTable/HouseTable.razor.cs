@@ -23,6 +23,11 @@ namespace RealEstate.Client.Components.HouseTable
             NavigationManager.NavigateTo(url);
         }
 
+        private void RedirectToDetails(int id)
+        {
+            var url = Path.Combine("/houseDetails/", id.ToString());
+            NavigationManager.NavigateTo(url);
+        }
 
         [Parameter]
         public EventCallback<int> OnDeleted { get; set; }

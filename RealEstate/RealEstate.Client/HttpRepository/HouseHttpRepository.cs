@@ -86,6 +86,7 @@ namespace RealEstate.Client.HttpRepository
             return house;
         }
 
+
         public async Task UpdateAsync(House entity)
         {
             var content = JsonSerializer.Serialize(entity);

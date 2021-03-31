@@ -9,7 +9,7 @@
       "url": "_content\/Tewr.Blazor.FileReader\/FileReaderComponent.js.map"
     },
     {
-      "hash": "sha256-BHNhq10T\/9aejlrFEhS\/NYeYS3Djwv\/pqg2xUjQCx\/s=",
+      "hash": "sha256-o7Xsiyv\/MuqZtOeHjqJVjsxLp4RBV\/UtXdFI0meG9VM=",
       "url": "css\/app.css"
     },
     {
@@ -65,7 +65,7 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-f02BUgRRv\/lOq9a1u2n87eXE0Jq7jGeEhzyNiygLK4E=",
+      "hash": "sha256-nCoR0B1xh6bLPs9dTyyrrGioF+\/dRe6xRI8UHiBk6W4=",
       "url": "index.html"
     },
     {
@@ -77,7 +77,7 @@
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-Zzg3vQ20a4RFf2mqRLoGXYolzTlT9dCAdWJDEm+LFWg=",
+      "hash": "sha256-Ok3tuY6n4spO7wdHYPh7KQpauxR\/dZnAXa81bqgIYRw=",
       "url": "_framework\/_bin\/RealEstate.Client.dll"
     },
     {
@@ -381,7 +381,7 @@
       "url": "_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-1fUUvl5koRmzBpDnxS4xPCTHV4\/US5KrYPvgqLZyQPQ=",
+      "hash": "sha256-KhGARSoowuwmkvtOVSW6r6xbqplM9AYHRiI1IvScrWU=",
       "url": "_framework\/_bin\/RealEstate.Client.pdb"
     },
     {
@@ -409,9 +409,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-1w+p5jfEPFk0o8gpHPuCDDNZjmpOinzFQ6v+sKhL0Xo=",
+      "hash": "sha256-jZ3mM87lrQNDSuH8Jd324fGZRwdfvx0tceKtc16j\/mE=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "HaY+j4tW"
+  "version": "a4gumBJy"
 };
