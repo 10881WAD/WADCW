@@ -23,5 +23,6 @@ namespace RealEstate.Client.Pages.Update
             await HouseRepo.UpdateAsync(_house);
             _notification.Show();
         }
+        private void AssignImageUrl(string imgUrl) => _house.ImageURL = imgUrl;
     }
 }

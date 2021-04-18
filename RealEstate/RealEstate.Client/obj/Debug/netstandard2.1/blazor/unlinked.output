@@ -31,7 +31,6 @@ obj\Debug\netstandard2.1\blazor\unlinked\System.Text.Json.dll
 obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.Bcl.AsyncInterfaces.dll
 obj\Debug\netstandard2.1\blazor\unlinked\System.Threading.Tasks.Extensions.dll
 obj\Debug\netstandard2.1\blazor\unlinked\System.Numerics.Vectors.dll
-obj\Debug\netstandard2.1\blazor\unlinked\System.Net.Http.Json.dll
 obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.AspNetCore.Components.Web.dll
 obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.AspNetCore.Components.Forms.dll

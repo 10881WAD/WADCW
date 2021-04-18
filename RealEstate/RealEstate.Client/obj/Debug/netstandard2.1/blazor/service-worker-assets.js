@@ -65,7 +65,19 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-nCoR0B1xh6bLPs9dTyyrrGioF+\/dRe6xRI8UHiBk6W4=",
+      "hash": "sha256-pPIDYGKZTfriqjpYcBiO+9kQpn\/v8KNmKVM4w4ar75g=",
+      "url": "ImagesForMain\/uy.jpg"
+    },
+    {
+      "hash": "sha256-yC2olQXnOzoQssKgUigVhGnV8KjGHweaZ7vnoL4ar8c=",
+      "url": "ImagesForMain\/uy2.jpg"
+    },
+    {
+      "hash": "sha256-2FV1Kb0oWMJZH6MMYxWMLsQRnl66N4YBFeHcE9G\/kVU=",
+      "url": "ImagesForMain\/uy3.jpg"
+    },
+    {
+      "hash": "sha256-HXer1DyWqWny4NzOYqcID+e49JA\/\/\/6YiwIjrWOb+0Y=",
       "url": "index.html"
     },
     {
@@ -77,7 +89,7 @@
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-Ok3tuY6n4spO7wdHYPh7KQpauxR\/dZnAXa81bqgIYRw=",
+      "hash": "sha256-YuEqp9vA0rEQdiuj9Gy9fc+LEX3JUazu1pjcNm8FcS4=",
       "url": "_framework\/_bin\/RealEstate.Client.dll"
     },
     {
@@ -209,10 +221,6 @@
       "url": "_framework\/_bin\/System.Numerics.Vectors.dll"
     },
     {
-      "hash": "sha256-99dseBOagY3mzu5Y8Eqm8gRI+o8QbbCp7R2Ew9bQ+5E=",
-      "url": "_framework\/_bin\/System.Net.Http.Json.dll"
-    },
-    {
       "hash": "sha256-2hVAWZGeNUvNHi+dhD2xcxajumJBBOBrm9Ad5mK\/9pw=",
       "url": "_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll"
     },
@@ -245,7 +253,7 @@
       "url": "_framework\/_bin\/Microsoft.JSInterop.dll"
     },
     {
-      "hash": "sha256-nP9tnMHLmE6pf\/3pBanOy2m5aoPHocawVcDYY6BXbG0=",
+      "hash": "sha256-xbkGGzCLKvl3LRliSe6F9LuHQ\/eheKxwUCRE1EjCwHY=",
       "url": "_framework\/_bin\/Entities.dll"
     },
     {
@@ -381,11 +389,11 @@
       "url": "_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-KhGARSoowuwmkvtOVSW6r6xbqplM9AYHRiI1IvScrWU=",
+      "hash": "sha256-exLo0VxTC8JtLHfPFhQ3ICsg5AJCakNUkJdP1QtP8G8=",
       "url": "_framework\/_bin\/RealEstate.Client.pdb"
     },
     {
-      "hash": "sha256-jX4YdA+XOje5IzUjuohLC54a7uLMjap27H3V0wpE3QY=",
+      "hash": "sha256-LjD5LhdNTlCP7Oc0heBbZgQMiFmXQvxMmQloi2Wjztc=",
       "url": "_framework\/_bin\/Entities.pdb"
     },
     {
@@ -409,9 +417,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-jZ3mM87lrQNDSuH8Jd324fGZRwdfvx0tceKtc16j\/mE=",
+      "hash": "sha256-BAVTkKkwBHcTK0TNVoDeW52GmBOP6tSwz9awcA6V+jw=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "a4gumBJy"
+  "version": "7oUUrATQ"
 };

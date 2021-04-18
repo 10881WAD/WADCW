@@ -34,7 +34,6 @@ C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\bin\Debug\net
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Threading.Tasks.Extensions.dll
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Numerics.Vectors.dll
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Text.Encodings.Web.dll
-C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Net.Http.Json.dll
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Microsoft.AspNetCore.Components.Web.dll
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Microsoft.AspNetCore.Components.Forms.dll
@@ -116,7 +115,6 @@ C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\bin\Debug\net
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Threading.Tasks.Extensions.dll.gz
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Numerics.Vectors.dll.gz
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Text.Encodings.Web.dll.gz
-C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Net.Http.Json.dll.gz
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Microsoft.AspNetCore.Components.Web.dll.gz
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Microsoft.AspNetCore.Components.Forms.dll.gz
@@ -255,12 +253,9 @@ C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\net
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\RazorDeclaration\App.razor.g.cs
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\RazorDeclaration\Components\ApartmentTable\ApartmentTable.razor.g.cs
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Apartments.razor.g.cs
-C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Counter.razor.g.cs
-C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
-C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\RazorDeclaration\_Imports.razor.g.cs
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\RealEstate.Client.RazorTargetAssemblyInfo.cache
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\RealEstate.Client.csproj.CopyComplete
@@ -294,7 +289,6 @@ C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\net
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\integrity\TkH6yxFQlTfY8NfznePrCdYJiEVpM9Dqy4Uu4H9qk10=.hash
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\integrity\qAKfFnquY_7UC-MzLi04rjqEhLzTryCoLg-S6MxI19I=.hash
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\integrity\Tqh1Da_iTRQJEZUGAsMNFuZ4hf1PMf13WApRZod_uw4=.hash
-C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\integrity\99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\integrity\2hVAWZGeNUvNHi_dhD2xcxajumJBBOBrm9Ad5mK-9pw=.hash
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\integrity\bSgsT2x5xMvs8mara5wU_EJwcyHa9GVMU85HwhWcdWM=.hash
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\integrity\m7Q_cF5-ji3OMfdGlCuE8pQ-iM_kxNHLq-IEWVvIaOg=.hash
@@ -373,7 +367,6 @@ C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\net
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Threading.Tasks.Extensions.dll.gz
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Numerics.Vectors.dll.gz
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Text.Encodings.Web.dll.gz
-C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Net.Http.Json.dll.gz
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\Microsoft.AspNetCore.Components.Web.dll.gz
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\Microsoft.AspNetCore.Components.Forms.dll.gz
@@ -455,7 +448,6 @@ C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\net
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Threading.Tasks.Extensions.dll.br
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Numerics.Vectors.dll.br
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Text.Encodings.Web.dll.br
-C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Net.Http.Json.dll.br
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll.br
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\Microsoft.AspNetCore.Components.Web.dll.br
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\Microsoft.AspNetCore.Components.Forms.dll.br
@@ -531,8 +523,6 @@ C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\net
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\Microsoft.Net.Http.Headers.dll.br
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\RazorDeclaration\Components\Search.razor.g.cs
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\RazorDeclaration\Components\Sort.razor.g.cs
-C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\integrity\nP9tnMHLmE6pf-3pBanOy2m5aoPHocawVcDYY6BXbG0=.hash
-C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\integrity\jX4YdA_XOje5IzUjuohLC54a7uLMjap27H3V0wpE3QY=.hash
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Create\CreateApartment.razor.g.cs
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Create\CreateHouse.razor.g.cs
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Create\CreateRegion.razor.g.cs
@@ -554,11 +544,9 @@ C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\net
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\Razor\Components\Search.razor.g.cs
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\Razor\Components\Sort.razor.g.cs
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\Razor\Pages\Apartments.razor.g.cs
-C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\Razor\Pages\Counter.razor.g.cs
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\Razor\Pages\Create\CreateApartment.razor.g.cs
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\Razor\Pages\Create\CreateHouse.razor.g.cs
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\Razor\Pages\Create\CreateRegion.razor.g.cs
-C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\Razor\Pages\FetchData.razor.g.cs
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\Razor\Pages\Houses.razor.g.cs
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\Razor\Pages\Index.razor.g.cs
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\Razor\Pages\Regions.razor.g.cs
@@ -566,7 +554,6 @@ C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\net
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\Razor\Shared\MainLayout.razor.g.cs
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\Razor\Shared\NavMenu.razor.g.cs
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\Razor\Shared\SuccessNotification.razor.g.cs
-C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\Razor\Shared\SurveyPrompt.razor.g.cs
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\Razor\_Imports.razor.g.cs
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\integrity\llKLg_tAgZP0yy3uVXMJqnfqc1QzLzBaYbMDdWCwkng=.hash
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\Tewr.Blazor.FileReader.dll.gz
@@ -585,8 +572,10 @@ C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\net
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\Razor\Pages\Details\ApartmentDetails.razor.g.cs
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Details\HouseDetails.razor.g.cs
 C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\Razor\Pages\Details\HouseDetails.razor.g.cs
-C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\integrity\cRPjLvnCQ1ya75R7LiGCZ9vWH149AVgOlUwi69qzUHs=.hash
-C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\integrity\Ok3tuY6n4spO7wdHYPh7KQpauxR-dZnAXa81bqgIYRw=.hash
-C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\integrity\KhGARSoowuwmkvtOVSW6r6xbqplM9AYHRiI1IvScrWU=.hash
-C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\integrity\jZ3mM87lrQNDSuH8Jd324fGZRwdfvx0tceKtc16j-mE=.hash
-C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\integrity\ZSgmvbtyvDPvwzi7wa5LzDIBmOq-AGPRE4UF_kNqH-s=.hash
+C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\integrity\xbkGGzCLKvl3LRliSe6F9LuHQ-eheKxwUCRE1EjCwHY=.hash
+C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\integrity\LjD5LhdNTlCP7Oc0heBbZgQMiFmXQvxMmQloi2Wjztc=.hash
+C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\integrity\iNbJwlNd-l0oQ-9dfZDM70O5HZBPf9Jv3mIwXXUhWIY=.hash
+C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\integrity\YuEqp9vA0rEQdiuj9Gy9fc_LEX3JUazu1pjcNm8FcS4=.hash
+C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\integrity\exLo0VxTC8JtLHfPFhQ3ICsg5AJCakNUkJdP1QtP8G8=.hash
+C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\integrity\BAVTkKkwBHcTK0TNVoDeW52GmBOP6tSwz9awcA6V_jw=.hash
+C:\Users\Admin\Documents\GitHub\WADCW\RealEstate\RealEstate.Client\obj\Debug\netstandard2.1\integrity\NXZoP5a7Qyowm4n8MPXj27T4Ms5wIR3FMQogL3oqfpA=.hash
